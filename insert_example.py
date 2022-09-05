@@ -20,8 +20,8 @@ print("Total Rows:", row)
 print("Total Columns:", column)
 
 # printing the value of first column
-# Loop will print all values
-# of first column
+# This will find the question with id "insert_example" and replace the formulat of of that cell
+# (which type is 'calculate') by 42. This value can then be used in notes or conditions further on in the form
 
 for i in range(2, row + 1):
     cell_obj = sheet_obj.cell(row=i, column=2)
